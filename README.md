@@ -55,5 +55,5 @@ This structure ensures a **clear separation of concerns**, making the applicatio
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/VeeGo-Online-Browsing-System.git
+git clone https://github.com/Manuthi24/VeeGo-Online-Browsing-System/tree/main
 
