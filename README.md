@@ -1,57 +1,56 @@
 # 🎬 VeeGo Online Browsing System
 
-VeeGo Online Browsing System is a **100% Java-based web application** designed to manage a video database through a user-friendly web interface. The system supports full **CRUD operations** (Create, Read, Update, Delete) along with **search functionality**, making it suitable for learning and demonstrating Java EE web development concepts.
+The **VeeGo Online Browsing System** is a **Java-based web application** developed using **JSP, Servlets, and JDBC**. The system is designed to manage a video database through a web interface, supporting full **CRUD operations** and **search functionality**. It demonstrates core Java EE concepts and follows a clean separation of concerns between presentation, logic, and data access layers.
 
 ---
 
-## 📌 Features
+## 🚀 Features
 
-- 🔍 **Video Search**  
-  Search for videos using a web-based interface powered by JSP and Servlets.
+- 🔍 **Video Search**
+  - Search videos using keywords via a web-based interface.
 
-- 🗂️ **Content Management (CRUD)**
-  - ➕ **Insert**: Add new video records to the database  
-  - ✏️ **Update**: Modify existing video details  
-  - ❌ **Delete**: Remove video entries  
+- 🗂️ **Video Management (CRUD)**
+  - ➕ Insert new video records
+  - ✏️ Update existing video details
+  - ❌ Delete video entries
 
-- ✅ **User Feedback System**  
-  Displays success or failure messages after each operation.
+- ✅ **User Feedback System**
+  - Displays success or error messages after each operation.
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Java** – Core programming language  
-- **JSP (Java Server Pages)** – Dynamic web interface  
-- **Servlets** – Server-side request handling  
-- **JDBC (Java Database Connectivity)** – Database interaction  
-- **Apache Tomcat** – Web application server  
-- **HTML/CSS** – Frontend structure and styling  
-
+- **Java** – Primary programming language  
+- **JSP (Java Server Pages)** – Dynamic UI rendering  
+- **Servlets** – Request handling and business logic  
+- **JDBC** – Database connectivity and operations  
+- **Apache Tomcat** – Web server and servlet container  
+- **HTML / CSS** – Frontend structure and styling  
 
 ---
 
-### 🧩 Architectural Overview
+
+## 🧩 System Architecture
 
 - **Model Layer**  
-  `Video.java` represents the video entity and its attributes.
+  - `Video.java` represents video entities.
 
 - **Controller Layer**  
-  Servlets handle request processing, validation, and interaction with the database.
+  - Servlets handle HTTP requests and coordinate application logic.
 
 - **View Layer**  
-  JSP pages provide the user interface for data input and feedback.
+  - JSP pages provide the user interface and user interaction.
 
 - **Database Layer**  
-  `VideoDBUtil.java` manages all database connectivity and queries using JDBC.
+  - `VideoDBUtil.java` manages all JDBC connections and SQL operations.
 
-This structure ensures a **clear separation of concerns**, making the application easier to understand, maintain, and extend.
-
-
+This layered approach improves **maintainability, scalability, and clarity**.
 
 ---
 
-## 🚀 Usage
+## ⚙️ Installation & Setup
+
 
 ### 1️⃣ Clone the Repository
 ```bash
