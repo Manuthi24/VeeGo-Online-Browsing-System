@@ -1,3 +1,13 @@
+![Java](https://img.shields.io/badge/Java-Web%20Application%20Backend-blue)
+![JSP](https://img.shields.io/badge/JSP-Dynamic%20UI-orange)
+![Servlets](https://img.shields.io/badge/Servlets-Request%20Handling-green)
+![JDBC](https://img.shields.io/badge/JDBC-Database%20Connectivity-yellow)
+![Tomcat](https://img.shields.io/badge/Tomcat-Web%20Server-red)
+![HTML5](https://img.shields.io/badge/HTML5-Frontend%20Structure-lightgrey)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-blue)
+![Portfolio Project](https://img.shields.io/badge/Type‑Portfolio%20Project-important)
+
+
 # 🎬 VeeGo Online Browsing System
 
 The **VeeGo Online Browsing System** is a **Java-based web application** developed using **JSP, Servlets, and JDBC**. The system is designed to manage a video database through a web interface, supporting full **CRUD operations** and **search functionality**. It demonstrates core Java EE concepts and follows a clean separation of concerns between presentation, logic, and data access layers.
